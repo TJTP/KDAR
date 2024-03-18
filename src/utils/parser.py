@@ -1,9 +1,4 @@
 import argparse
-# type of variants
-NO_CG = 'no_cg' # no cg aggregation, no pref and so on
-NO_PREF = 'no_pref' # no preference and contrastive and item enhance
-NO_CONTR = 'no_contr' # no contrastive
-MEAN_PREF = 'mean_pref' # no attn for preference, no attn base drop
 
 def parse_args():
     parser = argparse.ArgumentParser()
